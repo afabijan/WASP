@@ -10,9 +10,13 @@ sudo apt-get install -y python-dev
 sudo apt-get install -y python-pip
 sudo apt-get install -y python-pika
 
+# installs the encoder dependency
+sudo apt-get install -y mencoder
+
 # prepare directory 
 mkdir /usr/local/
 cd /usr/local/
 
 # echo "Cloning repo with WASP"
-git clone https://github.com/muyiibidun/WASP.git
+git clone https://github.com/afabijan/WASP.git
+
